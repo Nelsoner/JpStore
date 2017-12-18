@@ -1,0 +1,1298 @@
+
+
+[INFO ] 2017-12-10 15:42:11,440 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'jppstore-search-web': initialization started
+
+
+[INFO ] 2017-12-10 15:42:11,515 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sun Dec 10 15:42:11 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-10 15:42:11,722 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2017-12-10 15:42:12,506 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2017-12-10 15:42:12,736 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/resource.properties]
+
+
+[INFO ] 2017-12-10 15:42:12,745 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2017-12-10 15:42:13,446 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.JppStore.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2017-12-10 15:42:13,915 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sun Dec 10 15:42:11 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-10 15:42:14,036 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sun Dec 10 15:42:11 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-10 15:42:15,259 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Nelsoner\.dubbo\dubbo-registry-192.168.25.10.cache, data: {}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-12-10 15:42:15,315 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2017-12-10 15:42:15,323 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2017-12-10 15:42:15,325 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-UFMLEGJ
+
+
+[INFO ] 2017-12-10 15:42:15,325 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2017-12-10 15:42:15,327 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2017-12-10 15:42:15,327 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\Application\jdk\jdk1.8.0_131\jre
+
+
+[INFO ] 2017-12-10 15:42:15,328 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\Application\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\Application\IDEA\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar
+
+
+[INFO ] 2017-12-10 15:42:15,329 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\Application\jdk\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Application\jdk\jdk1.8.0_131\bin;F:\Application\jdk\jdk1.8.0_131\jre\bin;F:\Application\OpenCV\opencv\build\x64\vc14\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;F:\Application\tomcat8\lib;F:\Application\tomcat8\bin;F:\Application\mySql\bin;F:\Application\nodejs\;F:\Application\Clients\;F:\Application\python;F:\Application\apache-maven-3.3.9\bin;F:\Application\SVN\bin;F:\Application\SVN_cli\bin;D:\hadoop\hadoop-2.6.4\bin;E:\学习视频\大数据3期-传智播客Hadoop内部版\课件代码文档资料\day16\课前资料\扩展资料\扩展资料\插件安装\apache-ant-1.9.4\bin;F:\Application\scala\bin;C:\Users\Nelsoner\AppData\Roaming\npm;C:\Users\Nelsoner\AppData\Local\Microsoft\WindowsApps;F:\Application\Clients\;F:\Application\SSH;.
+
+
+[INFO ] 2017-12-10 15:42:15,338 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\Nelsoner\AppData\Local\Temp\
+
+
+[INFO ] 2017-12-10 15:42:15,339 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2017-12-10 15:42:15,340 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2017-12-10 15:42:15,340 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2017-12-10 15:42:15,340 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2017-12-10 15:42:15,341 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Nelsoner
+
+
+[INFO ] 2017-12-10 15:42:15,341 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Nelsoner
+
+
+[INFO ] 2017-12-10 15:42:15,341 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=C:\Users\Nelsoner\IdeaProjects\JpStore\jppstore-search-web
+
+
+[INFO ] 2017-12-10 15:42:15,343 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.10:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cc0f56
+
+
+[INFO ] 2017-12-10 15:42:15,392 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.10/192.168.25.10:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2017-12-10 15:42:15,395 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.10/192.168.25.10:2181, initiating session
+
+
+[INFO ] 2017-12-10 15:42:15,405 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.10/192.168.25.10:2181, sessionid = 0x1603f592c960005, negotiated timeout = 30000
+
+
+[INFO ] 2017-12-10 15:42:15,407 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2017-12-10 15:42:15,449 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=13276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512891734332, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:42:15,482 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=13276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512891734332, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:42:15,560 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=13276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512891734332, urls: [dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=7092&side=provider&timeout=300000&timestamp=1512891676009, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=13276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512891734332, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=13276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512891734332], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:42:15,856 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.20.134.126:20882 from NettyClient 172.20.134.126 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x61b3ec6a, /172.20.134.126:3298 => /172.20.134.126:20882]], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:42:15,856 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-UFMLEGJ/172.20.134.126 connect to the server /172.20.134.126:20882, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:42:15,934 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.JppStore.search.service.SearchService from url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=jppstore-search-web&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=13276&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1512891734332, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:42:16,014 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'jppstore-search-web': initialization completed in 4571 ms
+
+
+[INFO ] 2017-12-10 15:50:51,256 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'jppstore-search-web': initialization started
+
+
+[INFO ] 2017-12-10 15:50:51,289 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sun Dec 10 15:50:51 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-10 15:50:51,337 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2017-12-10 15:50:52,427 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2017-12-10 15:50:52,676 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/resource.properties]
+
+
+[INFO ] 2017-12-10 15:50:52,687 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2017-12-10 15:50:53,384 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.JppStore.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2017-12-10 15:50:53,893 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sun Dec 10 15:50:51 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-10 15:50:54,009 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sun Dec 10 15:50:51 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-10 15:50:55,462 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Nelsoner\.dubbo\dubbo-registry-192.168.25.10.cache, data: {com.JppStore.service.ItemService=empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-item-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=5212&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892209930 empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-item-web&category=routers&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=5212&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892209930 empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-item-web&category=providers&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=5212&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892209930, com.JppStore.search.service.SearchService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=5488&side=provider&timeout=300000&timestamp=1512892174529, com.JppStore.search.service.SearchItemService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchItemService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=5488&side=provider&timeout=300000&timestamp=1512892173871, com.JppStore.content.service.ContentService=empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=11108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892223970 empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=11108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892223970 dubbo://172.20.134.126:20881/com.JppStore.content.service.ContentService?anyhost=true&application=jppstore-content&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=5984&side=provider&timeout=300000&timestamp=1512892167107, com.JppStore.service.ItemCatService=empty://172.20.134.126/com.JppStore.service.ItemCatService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=11108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892224030 empty://172.20.134.126/com.JppStore.service.ItemCatService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=11108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892224030 empty://172.20.134.126/com.JppStore.service.ItemCatService?application=jppstore-manager-web&category=providers&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=11108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892224030, com.JppStore.content.service.ContentCategoryService=empty://172.20.134.126/com.JppStore.content.service.ContentCategoryService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=11108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892223331 empty://172.20.134.126/com.JppStore.content.service.ContentCategoryService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=11108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892223331 dubbo://172.20.134.126:20881/com.JppStore.content.service.ContentCategoryService?anyhost=true&application=jppstore-content&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=5984&side=provider&timeout=300000&timestamp=1512892165537}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-12-10 15:50:55,806 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2017-12-10 15:50:55,806 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-UFMLEGJ
+
+
+[INFO ] 2017-12-10 15:50:55,807 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2017-12-10 15:50:55,808 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2017-12-10 15:50:55,808 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\Application\jdk\jdk1.8.0_131\jre
+
+
+[INFO ] 2017-12-10 15:50:55,808 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\Application\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\Application\IDEA\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar
+
+
+[INFO ] 2017-12-10 15:50:55,809 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\Application\jdk\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Application\jdk\jdk1.8.0_131\bin;F:\Application\jdk\jdk1.8.0_131\jre\bin;F:\Application\OpenCV\opencv\build\x64\vc14\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;F:\Application\tomcat8\lib;F:\Application\tomcat8\bin;F:\Application\mySql\bin;F:\Application\nodejs\;F:\Application\Clients\;F:\Application\python;F:\Application\apache-maven-3.3.9\bin;F:\Application\SVN\bin;F:\Application\SVN_cli\bin;D:\hadoop\hadoop-2.6.4\bin;E:\学习视频\大数据3期-传智播客Hadoop内部版\课件代码文档资料\day16\课前资料\扩展资料\扩展资料\插件安装\apache-ant-1.9.4\bin;F:\Application\scala\bin;C:\Users\Nelsoner\AppData\Roaming\npm;C:\Users\Nelsoner\AppData\Local\Microsoft\WindowsApps;F:\Application\Clients\;F:\Application\SSH;.
+
+
+[INFO ] 2017-12-10 15:50:55,812 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\Nelsoner\AppData\Local\Temp\
+
+
+[INFO ] 2017-12-10 15:50:55,813 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2017-12-10 15:50:55,813 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2017-12-10 15:50:55,813 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2017-12-10 15:50:55,814 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2017-12-10 15:50:55,814 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Nelsoner
+
+
+[INFO ] 2017-12-10 15:50:55,815 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Nelsoner
+
+
+[INFO ] 2017-12-10 15:50:55,816 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=C:\Users\Nelsoner\IdeaProjects\JpStore\jppstore-search-web
+
+
+[INFO ] 2017-12-10 15:50:55,817 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.10:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3716e199
+
+
+[INFO ] 2017-12-10 15:50:55,901 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2017-12-10 15:50:56,194 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.10/192.168.25.10:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2017-12-10 15:50:56,198 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.10/192.168.25.10:2181, initiating session
+
+
+[INFO ] 2017-12-10 15:50:56,475 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.10/192.168.25.10:2181, sessionid = 0x1603f592c96000e, negotiated timeout = 30000
+
+
+[INFO ] 2017-12-10 15:50:56,482 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2017-12-10 15:50:56,522 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=5960&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892254271, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:50:56,597 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=5960&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892254271, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:50:56,658 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=5960&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892254271, urls: [dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=5488&side=provider&timeout=300000&timestamp=1512892174529, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=5960&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892254271, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=5960&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512892254271], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:50:57,062 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.20.134.126:20882 from NettyClient 172.20.134.126 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xf758f874, /172.20.134.126:3600 => /172.20.134.126:20882]], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:50:57,063 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-UFMLEGJ/172.20.134.126 connect to the server /172.20.134.126:20882, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:50:57,139 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.JppStore.search.service.SearchService from url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=jppstore-search-web&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=5960&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1512892254271, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-10 15:50:57,260 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'jppstore-search-web': initialization completed in 6000 ms
+
+
+[WARN ] 2017-12-10 15:51:55,205 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'jppstore-search-web'
+
+
+[INFO ] 2017-12-11 15:31:14,350 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'jppstore-search-web': initialization started
+
+
+[INFO ] 2017-12-11 15:31:14,397 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Mon Dec 11 15:31:14 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-11 15:31:14,619 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2017-12-11 15:31:15,852 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2017-12-11 15:31:16,257 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/resource.properties]
+
+
+[INFO ] 2017-12-11 15:31:16,267 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2017-12-11 15:31:17,471 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.JppStore.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2017-12-11 15:31:19,034 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Mon Dec 11 15:31:14 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-11 15:31:19,262 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Mon Dec 11 15:31:14 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-11 15:31:20,280 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Nelsoner\.dubbo\dubbo-registry-192.168.25.10.cache, data: {com.JppStore.service.ItemService=empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893109576 empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893109576 dubbo://172.20.134.126:20880/com.JppStore.service.ItemService?anyhost=true&application=jppstore-manager&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=84&side=provider&timeout=300000&timestamp=1512893074246, com.JppStore.search.service.SearchService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=5488&side=provider&timeout=300000&timestamp=1512892174529, com.JppStore.search.service.SearchItemService=empty://172.20.134.126/com.JppStore.search.service.SearchItemService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893109672 empty://172.20.134.126/com.JppStore.search.service.SearchItemService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893109672 dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchItemService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=5488&side=provider&timeout=300000&timestamp=1512892173871, com.JppStore.content.service.ContentService=empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893108202 empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893108202 dubbo://172.20.134.126:20881/com.JppStore.content.service.ContentService?anyhost=true&application=jppstore-content&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=5984&side=provider&timeout=300000&timestamp=1512892167107, com.JppStore.service.ItemCatService=empty://172.20.134.126/com.JppStore.service.ItemCatService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893109510 empty://172.20.134.126/com.JppStore.service.ItemCatService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893109510 dubbo://172.20.134.126:20880/com.JppStore.service.ItemCatService?anyhost=true&application=jppstore-manager&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=84&side=provider&timeout=300000&timestamp=1512893074777, com.JppStore.content.service.ContentCategoryService=empty://172.20.134.126/com.JppStore.content.service.ContentCategoryService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893107484 empty://172.20.134.126/com.JppStore.content.service.ContentCategoryService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=8572&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512893107484 dubbo://172.20.134.126:20881/com.JppStore.content.service.ContentCategoryService?anyhost=true&application=jppstore-content&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=5984&side=provider&timeout=300000&timestamp=1512892165537}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-12-11 15:31:20,504 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2017-12-11 15:31:20,505 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-UFMLEGJ
+
+
+[INFO ] 2017-12-11 15:31:20,505 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2017-12-11 15:31:20,506 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2017-12-11 15:31:20,507 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\Application\jdk\jdk1.8.0_131\jre
+
+
+[INFO ] 2017-12-11 15:31:20,507 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\Application\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\Application\IDEA\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar
+
+
+[INFO ] 2017-12-11 15:31:20,508 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\Application\jdk\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Application\jdk\jdk1.8.0_131\bin;F:\Application\jdk\jdk1.8.0_131\jre\bin;F:\Application\OpenCV\opencv\build\x64\vc14\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;F:\Application\tomcat8\lib;F:\Application\tomcat8\bin;F:\Application\mySql\bin;F:\Application\nodejs\;F:\Application\Clients\;F:\Application\python;F:\Application\apache-maven-3.3.9\bin;F:\Application\SVN\bin;F:\Application\SVN_cli\bin;D:\hadoop\hadoop-2.6.4\bin;E:\学习视频\大数据3期-传智播客Hadoop内部版\课件代码文档资料\day16\课前资料\扩展资料\扩展资料\插件安装\apache-ant-1.9.4\bin;F:\Application\scala\bin;C:\Users\Nelsoner\AppData\Roaming\npm;C:\Users\Nelsoner\AppData\Local\Microsoft\WindowsApps;F:\Application\Clients\;F:\Application\SSH;.
+
+
+[INFO ] 2017-12-11 15:31:20,509 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\Nelsoner\AppData\Local\Temp\
+
+
+[INFO ] 2017-12-11 15:31:20,510 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2017-12-11 15:31:20,510 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2017-12-11 15:31:20,512 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2017-12-11 15:31:20,514 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2017-12-11 15:31:20,514 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Nelsoner
+
+
+[INFO ] 2017-12-11 15:31:20,514 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Nelsoner
+
+
+[INFO ] 2017-12-11 15:31:20,515 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=C:\Users\Nelsoner\IdeaProjects\JpStore\jppstore-search-web
+
+
+[INFO ] 2017-12-11 15:31:20,516 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.10:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@750c896
+
+
+[INFO ] 2017-12-11 15:31:20,597 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2017-12-11 15:31:20,626 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.10/192.168.25.10:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2017-12-11 15:31:20,630 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.10/192.168.25.10:2181, initiating session
+
+
+[INFO ] 2017-12-11 15:31:21,816 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.10/192.168.25.10:2181, sessionid = 0x16044781dbf0001, negotiated timeout = 30000
+
+
+[INFO ] 2017-12-11 15:31:21,819 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2017-12-11 15:31:22,017 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 15:31:22,094 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 15:31:22,233 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627, urls: [empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[WARN ] 2017-12-11 15:31:22,243 method:org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.JppStore.search.service.SearchService com.JppStore.search.controller.SearchController.searchService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.JppStore.search.service.SearchService. No provider available for the service com.JppStore.search.service.SearchService from the url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?application=jppstore-search-web&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627 to the consumer 172.20.134.126 use dubbo version 2.5.3
+
+
+[ERROR] 2017-12-11 15:31:22,252 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502)
+Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.JppStore.search.service.SearchService com.JppStore.search.controller.SearchController.searchService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.JppStore.search.service.SearchService. No provider available for the service com.JppStore.search.service.SearchService from the url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?application=jppstore-search-web&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627 to the consumer 172.20.134.126 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.JppStore.search.service.SearchService com.JppStore.search.controller.SearchController.searchService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.JppStore.search.service.SearchService. No provider available for the service com.JppStore.search.service.SearchService from the url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?application=jppstore-search-web&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627 to the consumer 172.20.134.126 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 29 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.JppStore.search.service.SearchService. No provider available for the service com.JppStore.search.service.SearchService from the url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?application=jppstore-search-web&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627 to the consumer 172.20.134.126 use dubbo version 2.5.3
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1585)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 31 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.JppStore.search.service.SearchService. No provider available for the service com.JppStore.search.service.SearchService from the url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?application=jppstore-search-web&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627 to the consumer 172.20.134.126 use dubbo version 2.5.3
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 39 more
+
+
+[INFO ] 2017-12-11 15:31:41,768 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14344&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977479627, urls: [dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=972&side=provider&timeout=300000&timestamp=1512977501594], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 15:31:42,111 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.20.134.126:20882 from NettyClient 172.20.134.126 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x50aae2cd, /172.20.134.126:8537 => /172.20.134.126:20882]], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 15:31:42,112 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-UFMLEGJ/172.20.134.126 connect to the server /172.20.134.126:20882, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:22:09,789 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'jppstore-search-web': initialization started
+
+
+[INFO ] 2017-12-11 16:22:09,901 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Mon Dec 11 16:22:09 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-11 16:22:09,984 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2017-12-11 16:22:12,195 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2017-12-11 16:22:12,723 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/resource.properties]
+
+
+[INFO ] 2017-12-11 16:22:12,730 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2017-12-11 16:22:13,996 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.JppStore.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2017-12-11 16:22:15,730 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Mon Dec 11 16:22:09 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-11 16:22:15,990 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Mon Dec 11 16:22:09 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-11 16:22:16,455 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Nelsoner\.dubbo\dubbo-registry-192.168.25.10.cache, data: {com.JppStore.service.ItemService=empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-item-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=13180&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977674002 empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-item-web&category=routers&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=13180&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512977674002 dubbo://172.20.134.126:20880/com.JppStore.service.ItemService?anyhost=true&application=jppstore-manager&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=6612&side=provider&timeout=300000&timestamp=1512977499705, com.JppStore.search.service.SearchService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=972&side=provider&timeout=300000&timestamp=1512977501594, com.JppStore.search.service.SearchItemService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchItemService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=972&side=provider&timeout=300000&timestamp=1512977500482, com.JppStore.content.service.ContentService=empty://172.20.134.126:20881/com.JppStore.content.service.ContentService?anyhost=true&application=jppstore-content&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=11660&side=provider&timeout=300000&timestamp=1512977495143, com.JppStore.service.ItemCatService=empty://172.20.134.126:20880/com.JppStore.service.ItemCatService?anyhost=true&application=jppstore-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=6612&side=provider&timeout=300000&timestamp=1512977501114, com.JppStore.content.service.ContentCategoryService=empty://172.20.134.126:20881/com.JppStore.content.service.ContentCategoryService?anyhost=true&application=jppstore-content&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=11660&side=provider&timeout=300000&timestamp=1512977492213}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-12-11 16:22:16,567 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2017-12-11 16:22:16,568 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-UFMLEGJ
+
+
+[INFO ] 2017-12-11 16:22:16,568 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2017-12-11 16:22:16,568 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2017-12-11 16:22:16,569 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\Application\jdk\jdk1.8.0_131\jre
+
+
+[INFO ] 2017-12-11 16:22:16,569 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\Application\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\Application\IDEA\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar
+
+
+[INFO ] 2017-12-11 16:22:16,570 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\Application\jdk\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Application\jdk\jdk1.8.0_131\bin;F:\Application\jdk\jdk1.8.0_131\jre\bin;F:\Application\OpenCV\opencv\build\x64\vc14\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;F:\Application\tomcat8\lib;F:\Application\tomcat8\bin;F:\Application\mySql\bin;F:\Application\nodejs\;F:\Application\Clients\;F:\Application\python;F:\Application\apache-maven-3.3.9\bin;F:\Application\SVN\bin;F:\Application\SVN_cli\bin;D:\hadoop\hadoop-2.6.4\bin;E:\学习视频\大数据3期-传智播客Hadoop内部版\课件代码文档资料\day16\课前资料\扩展资料\扩展资料\插件安装\apache-ant-1.9.4\bin;F:\Application\scala\bin;C:\Users\Nelsoner\AppData\Roaming\npm;C:\Users\Nelsoner\AppData\Local\Microsoft\WindowsApps;F:\Application\Clients\;F:\Application\SSH;.
+
+
+[INFO ] 2017-12-11 16:22:16,571 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\Nelsoner\AppData\Local\Temp\
+
+
+[INFO ] 2017-12-11 16:22:16,572 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2017-12-11 16:22:16,573 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2017-12-11 16:22:16,574 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2017-12-11 16:22:16,574 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2017-12-11 16:22:16,575 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Nelsoner
+
+
+[INFO ] 2017-12-11 16:22:16,575 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Nelsoner
+
+
+[INFO ] 2017-12-11 16:22:16,575 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=C:\Users\Nelsoner\IdeaProjects\JpStore\jppstore-search-web
+
+
+[INFO ] 2017-12-11 16:22:16,578 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.10:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@1a655447
+
+
+[INFO ] 2017-12-11 16:22:16,631 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2017-12-11 16:22:16,753 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.10/192.168.25.10:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2017-12-11 16:22:16,756 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.10/192.168.25.10:2181, initiating session
+
+
+[INFO ] 2017-12-11 16:22:17,077 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.10/192.168.25.10:2181, sessionid = 0x16044781dbf000a, negotiated timeout = 30000
+
+
+[INFO ] 2017-12-11 16:22:17,084 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2017-12-11 16:22:17,248 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14972&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512980536261, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:22:19,556 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14972&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512980536261, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:22:19,630 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14972&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512980536261, urls: [dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=972&side=provider&timeout=300000&timestamp=1512977501594, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14972&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512980536261, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14972&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512980536261], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:22:20,324 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.20.134.126:20882 from NettyClient 172.20.134.126 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x00addbb0, /172.20.134.126:10276 => /172.20.134.126:20882]], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:22:20,324 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-UFMLEGJ/172.20.134.126 connect to the server /172.20.134.126:20882, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:22:20,576 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.JppStore.search.service.SearchService from url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=jppstore-search-web&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14972&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1512980536261, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:22:21,167 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'jppstore-search-web': initialization completed in 11374 ms
+
+
+[INFO ] 2017-12-11 16:38:50,392 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'jppstore-search-web': initialization started
+
+
+[INFO ] 2017-12-11 16:38:50,425 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Mon Dec 11 16:38:50 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-11 16:38:50,513 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2017-12-11 16:38:51,512 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2017-12-11 16:38:52,002 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/resource.properties]
+
+
+[INFO ] 2017-12-11 16:38:52,010 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2017-12-11 16:38:53,451 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.JppStore.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2017-12-11 16:38:54,555 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Mon Dec 11 16:38:50 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-11 16:38:54,741 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Mon Dec 11 16:38:50 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-11 16:38:55,143 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Nelsoner\.dubbo\dubbo-registry-192.168.25.10.cache, data: {com.JppStore.service.ItemService=empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534725 empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534725 dubbo://172.20.134.126:20880/com.JppStore.service.ItemService?anyhost=true&application=jppstore-manager&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=6612&side=provider&timeout=300000&timestamp=1512977499705, com.JppStore.search.service.SearchService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=6340&side=provider&timeout=300000&timestamp=1512981462452, com.JppStore.search.service.SearchItemService=empty://172.20.134.126/com.JppStore.search.service.SearchItemService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534868 empty://172.20.134.126/com.JppStore.search.service.SearchItemService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534868 dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchItemService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=6340&side=provider&timeout=300000&timestamp=1512981461471, com.JppStore.content.service.ContentService=empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534494 empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534494 dubbo://172.20.134.126:20881/com.JppStore.content.service.ContentService?anyhost=true&application=jppstore-content&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=11660&side=provider&timeout=300000&timestamp=1512977495143, com.JppStore.service.ItemCatService=empty://172.20.134.126/com.JppStore.service.ItemCatService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534631 empty://172.20.134.126/com.JppStore.service.ItemCatService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534631 dubbo://172.20.134.126:20880/com.JppStore.service.ItemCatService?anyhost=true&application=jppstore-manager&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=6612&side=provider&timeout=300000&timestamp=1512977501114, com.JppStore.content.service.ContentCategoryService=empty://172.20.134.126/com.JppStore.content.service.ContentCategoryService?application=jppstore-manager-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981532989 empty://172.20.134.126/com.JppStore.content.service.ContentCategoryService?application=jppstore-manager-web&category=routers&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=7748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981532989 dubbo://172.20.134.126:20881/com.JppStore.content.service.ContentCategoryService?anyhost=true&application=jppstore-content&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=11660&side=provider&timeout=300000&timestamp=1512977492213}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-12-11 16:38:55,235 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2017-12-11 16:38:55,235 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-UFMLEGJ
+
+
+[INFO ] 2017-12-11 16:38:55,236 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2017-12-11 16:38:55,237 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2017-12-11 16:38:55,237 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\Application\jdk\jdk1.8.0_131\jre
+
+
+[INFO ] 2017-12-11 16:38:55,237 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\Application\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\Application\IDEA\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar
+
+
+[INFO ] 2017-12-11 16:38:55,238 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\Application\jdk\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Application\jdk\jdk1.8.0_131\bin;F:\Application\jdk\jdk1.8.0_131\jre\bin;F:\Application\OpenCV\opencv\build\x64\vc14\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;F:\Application\tomcat8\lib;F:\Application\tomcat8\bin;F:\Application\mySql\bin;F:\Application\nodejs\;F:\Application\Clients\;F:\Application\python;F:\Application\apache-maven-3.3.9\bin;F:\Application\SVN\bin;F:\Application\SVN_cli\bin;D:\hadoop\hadoop-2.6.4\bin;E:\学习视频\大数据3期-传智播客Hadoop内部版\课件代码文档资料\day16\课前资料\扩展资料\扩展资料\插件安装\apache-ant-1.9.4\bin;F:\Application\scala\bin;C:\Users\Nelsoner\AppData\Roaming\npm;C:\Users\Nelsoner\AppData\Local\Microsoft\WindowsApps;F:\Application\Clients\;F:\Application\SSH;.
+
+
+[INFO ] 2017-12-11 16:38:55,240 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\Nelsoner\AppData\Local\Temp\
+
+
+[INFO ] 2017-12-11 16:38:55,240 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2017-12-11 16:38:55,240 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2017-12-11 16:38:55,242 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2017-12-11 16:38:55,243 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2017-12-11 16:38:55,243 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Nelsoner
+
+
+[INFO ] 2017-12-11 16:38:55,244 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Nelsoner
+
+
+[INFO ] 2017-12-11 16:38:55,244 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=C:\Users\Nelsoner\IdeaProjects\JpStore\jppstore-search-web
+
+
+[INFO ] 2017-12-11 16:38:55,246 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.10:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@14898ea3
+
+
+[INFO ] 2017-12-11 16:38:55,272 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2017-12-11 16:38:55,310 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.10/192.168.25.10:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2017-12-11 16:38:55,315 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.10/192.168.25.10:2181, initiating session
+
+
+[INFO ] 2017-12-11 16:38:55,330 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.10/192.168.25.10:2181, sessionid = 0x16044781dbf0010, negotiated timeout = 30000
+
+
+[INFO ] 2017-12-11 16:38:55,334 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2017-12-11 16:38:55,464 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=380&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534955, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:38:55,531 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=380&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534955, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:38:55,706 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=380&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534955, urls: [dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=6340&side=provider&timeout=300000&timestamp=1512981462452, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=380&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534955, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=380&revision=1.0-SNAPSHOT&side=consumer&timestamp=1512981534955], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:38:55,932 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.20.134.126:20882 from NettyClient 172.20.134.126 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xb62879f5, /172.20.134.126:25629 => /172.20.134.126:20882]], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:38:55,932 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-UFMLEGJ/172.20.134.126 connect to the server /172.20.134.126:20882, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:38:56,010 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.JppStore.search.service.SearchService from url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=jppstore-search-web&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=380&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1512981534955, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-11 16:38:56,121 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'jppstore-search-web': initialization completed in 5725 ms
+
+
+[WARN ] 2017-12-11 16:42:38,010 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'jppstore-search-web'
+
+
+[WARN ] 2017-12-11 17:00:38,043 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'jppstore-search-web'
+
+
+[INFO ] 2017-12-14 21:00:24,371 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'jppstore-search-web': initialization started
+
+
+[INFO ] 2017-12-14 21:00:24,428 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Thu Dec 14 21:00:24 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-14 21:00:24,529 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2017-12-14 21:00:25,635 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2017-12-14 21:00:25,869 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/resource.properties]
+
+
+[INFO ] 2017-12-14 21:00:25,876 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2017-12-14 21:00:26,833 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.JppStore.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2017-12-14 21:00:27,489 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Thu Dec 14 21:00:24 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-14 21:00:27,589 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Thu Dec 14 21:00:24 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-14 21:00:28,100 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Nelsoner\.dubbo\dubbo-registry-192.168.25.10.cache, data: {com.JppStore.search.service.SearchItemService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchItemService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=12704&side=provider&timeout=300000&timestamp=1513256255339, com.JppStore.search.service.SearchService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=12704&side=provider&timeout=300000&timestamp=1513256256077, com.JppStore.sso.service.LoginService=empty://172.20.134.126/com.JppStore.sso.service.LoginService?application=jppstore-sso-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.sso.service.LoginService&methods=userLogin&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256393983 empty://172.20.134.126/com.JppStore.sso.service.LoginService?application=jppstore-sso-web&category=routers&dubbo=2.5.3&interface=com.JppStore.sso.service.LoginService&methods=userLogin&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256393983 dubbo://172.20.134.126:20883/com.JppStore.sso.service.LoginService?anyhost=true&application=jppstore-sso&dubbo=2.5.3&interface=com.JppStore.sso.service.LoginService&methods=userLogin&pid=13500&side=provider&timeout=300000&timestamp=1513256339914, com.JppStore.content.service.ContentCategoryService=empty://172.20.134.126:20881/com.JppStore.content.service.ContentCategoryService?anyhost=true&application=jppstore-content&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=5056&side=provider&timeout=300000&timestamp=1513256236255, com.JppStore.sso.service.TokenService=empty://172.20.134.126/com.JppStore.sso.service.TokenService?application=jppstore-sso-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.sso.service.TokenService&methods=getUserByToken&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256395909 empty://172.20.134.126/com.JppStore.sso.service.TokenService?application=jppstore-sso-web&category=routers&dubbo=2.5.3&interface=com.JppStore.sso.service.TokenService&methods=getUserByToken&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256395909 dubbo://172.20.134.126:20883/com.JppStore.sso.service.TokenService?anyhost=true&application=jppstore-sso&dubbo=2.5.3&interface=com.JppStore.sso.service.TokenService&methods=getUserByToken&pid=13500&side=provider&timeout=300000&timestamp=1513256339997, com.JppStore.service.ItemService=empty://172.20.134.126:20880/com.JppStore.service.ItemService?anyhost=true&application=jppstore-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=6916&side=provider&timeout=300000&timestamp=1513256354734, com.JppStore.service.ItemCatService=empty://172.20.134.126:20880/com.JppStore.service.ItemCatService?anyhost=true&application=jppstore-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=6916&side=provider&timeout=300000&timestamp=1513256355372, com.JppStore.sso.service.RegisterService=empty://172.20.134.126/com.JppStore.sso.service.RegisterService?application=jppstore-sso-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.sso.service.RegisterService&methods=checkData,register&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256395816 empty://172.20.134.126/com.JppStore.sso.service.RegisterService?application=jppstore-sso-web&category=routers&dubbo=2.5.3&interface=com.JppStore.sso.service.RegisterService&methods=checkData,register&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256395816 dubbo://172.20.134.126:20883/com.JppStore.sso.service.RegisterService?anyhost=true&application=jppstore-sso&dubbo=2.5.3&interface=com.JppStore.sso.service.RegisterService&methods=checkData,register&pid=13500&side=provider&timeout=300000&timestamp=1513256338379, com.JppStore.content.service.ContentService=empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-portal-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=1468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256411288 empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-portal-web&category=routers&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=1468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256411288 dubbo://172.20.134.126:20881/com.JppStore.content.service.ContentService?anyhost=true&application=jppstore-content&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=5056&side=provider&timeout=300000&timestamp=1513256245628}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-12-14 21:00:28,195 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2017-12-14 21:00:28,196 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-UFMLEGJ
+
+
+[INFO ] 2017-12-14 21:00:28,201 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2017-12-14 21:00:28,202 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2017-12-14 21:00:28,202 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\Application\jdk\jdk1.8.0_131\jre
+
+
+[INFO ] 2017-12-14 21:00:28,202 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\Application\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\Application\IDEA\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar
+
+
+[INFO ] 2017-12-14 21:00:28,203 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\Application\jdk\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Application\jdk\jdk1.8.0_131\bin;F:\Application\jdk\jdk1.8.0_131\jre\bin;F:\Application\OpenCV\opencv\build\x64\vc14\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;F:\Application\tomcat8\lib;F:\Application\tomcat8\bin;F:\Application\mySql\bin;F:\Application\nodejs\;F:\Application\Clients\;F:\Application\python;F:\Application\apache-maven-3.3.9\bin;F:\Application\SVN\bin;F:\Application\SVN_cli\bin;D:\hadoop\hadoop-2.6.4\bin;E:\学习视频\大数据3期-传智播客Hadoop内部版\课件代码文档资料\day16\课前资料\扩展资料\扩展资料\插件安装\apache-ant-1.9.4\bin;F:\Application\scala\bin;C:\Users\Nelsoner\AppData\Roaming\npm;C:\Users\Nelsoner\AppData\Local\Microsoft\WindowsApps;F:\Application\Clients\;F:\Application\SSH;.
+
+
+[INFO ] 2017-12-14 21:00:28,205 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\Nelsoner\AppData\Local\Temp\
+
+
+[INFO ] 2017-12-14 21:00:28,209 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2017-12-14 21:00:28,210 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2017-12-14 21:00:28,210 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2017-12-14 21:00:28,211 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2017-12-14 21:00:28,211 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Nelsoner
+
+
+[INFO ] 2017-12-14 21:00:28,212 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Nelsoner
+
+
+[INFO ] 2017-12-14 21:00:28,212 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=C:\Users\Nelsoner\IdeaProjects\JpStore\jppstore-search-web
+
+
+[INFO ] 2017-12-14 21:00:28,216 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.10:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@1a655447
+
+
+[INFO ] 2017-12-14 21:00:28,298 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2017-12-14 21:00:28,324 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.10/192.168.25.10:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2017-12-14 21:00:28,422 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.10/192.168.25.10:2181, initiating session
+
+
+[INFO ] 2017-12-14 21:00:28,606 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.10/192.168.25.10:2181, sessionid = 0x16054cc3039000a, negotiated timeout = 30000
+
+
+[INFO ] 2017-12-14 21:00:28,609 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2017-12-14 21:00:29,004 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=12924&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256427766, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-14 21:00:29,095 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=12924&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256427766, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-14 21:00:29,169 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=12924&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256427766, urls: [dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=12704&side=provider&timeout=300000&timestamp=1513256256077, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=12924&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256427766, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=12924&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513256427766], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-14 21:00:29,814 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.20.134.126:20882 from NettyClient 172.20.134.126 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x33a177ba, /172.20.134.126:22860 => /172.20.134.126:20882]], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-14 21:00:29,814 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-UFMLEGJ/172.20.134.126 connect to the server /172.20.134.126:20882, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-14 21:00:30,044 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.JppStore.search.service.SearchService from url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=jppstore-search-web&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=12924&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1513256427766, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-14 21:00:30,391 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'jppstore-search-web': initialization completed in 6014 ms
+
+
+[WARN ] 2017-12-14 21:14:12,940 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'jppstore-search-web'
+
+
+[INFO ] 2017-12-14 21:26:41,333 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.20.134.126:20882,url:dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.JppStore.search.service.SearchService&methods=search&pid=12924&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1513256427766, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-16 17:28:34,161 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'jppstore-search-web': initialization started
+
+
+[INFO ] 2017-12-16 17:28:34,196 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sat Dec 16 17:28:34 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-16 17:28:34,272 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2017-12-16 17:28:35,275 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2017-12-16 17:28:35,434 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/resource.properties]
+
+
+[INFO ] 2017-12-16 17:28:35,445 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2017-12-16 17:28:36,390 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.JppStore.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2017-12-16 17:28:36,934 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sat Dec 16 17:28:34 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-16 17:28:37,013 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sat Dec 16 17:28:34 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-16 17:28:37,216 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Nelsoner\.dubbo\dubbo-registry-192.168.25.10.cache, data: {com.JppStore.search.service.SearchItemService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchItemService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=14004&side=provider&timeout=300000&timestamp=1513416248306, com.JppStore.search.service.SearchService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14004&side=provider&timeout=300000&timestamp=1513416250824, com.JppStore.sso.service.LoginService=empty://172.20.134.126/com.JppStore.sso.service.LoginService?application=jppstore-sso-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.sso.service.LoginService&methods=userLogin&pid=10068&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416336976 empty://172.20.134.126/com.JppStore.sso.service.LoginService?application=jppstore-sso-web&category=routers&dubbo=2.5.3&interface=com.JppStore.sso.service.LoginService&methods=userLogin&pid=10068&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416336976 dubbo://172.20.134.126:20883/com.JppStore.sso.service.LoginService?anyhost=true&application=jppstore-sso&dubbo=2.5.3&interface=com.JppStore.sso.service.LoginService&methods=userLogin&pid=13116&side=provider&timeout=300000&timestamp=1513416250834, com.JppStore.content.service.ContentCategoryService=empty://172.20.134.126:20881/com.JppStore.content.service.ContentCategoryService?anyhost=true&application=jppstore-content&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=3584&side=provider&timeout=300000&timestamp=1513416204221, com.JppStore.sso.service.TokenService=empty://172.20.134.126/com.JppStore.sso.service.TokenService?application=jppstore-item-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.sso.service.TokenService&methods=getUserByToken&pid=11392&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416431687 empty://172.20.134.126/com.JppStore.sso.service.TokenService?application=jppstore-item-web&category=routers&dubbo=2.5.3&interface=com.JppStore.sso.service.TokenService&methods=getUserByToken&pid=11392&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416431687 dubbo://172.20.134.126:20883/com.JppStore.sso.service.TokenService?anyhost=true&application=jppstore-sso&dubbo=2.5.3&interface=com.JppStore.sso.service.TokenService&methods=getUserByToken&pid=13116&side=provider&timeout=300000&timestamp=1513416250912, com.JppStore.service.ItemService=empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-item-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=11392&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416432839 empty://172.20.134.126/com.JppStore.service.ItemService?application=jppstore-item-web&category=routers&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=11392&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416432839 dubbo://172.20.134.126:20880/com.JppStore.service.ItemService?anyhost=true&application=jppstore-manager&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=11196&side=provider&timeout=300000&timestamp=1513416209834, com.JppStore.cart.service.CartService=empty://172.20.134.126/com.JppStore.cart.service.CartService?application=jppstore-item-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.cart.service.CartService&methods=addCart,mergeCart,updateCartNum,deleteCartItem,getCartList&pid=11392&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416433148 empty://172.20.134.126/com.JppStore.cart.service.CartService?application=jppstore-item-web&category=routers&dubbo=2.5.3&interface=com.JppStore.cart.service.CartService&methods=addCart,mergeCart,updateCartNum,deleteCartItem,getCartList&pid=11392&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416433148 dubbo://172.20.134.126:20884/com.JppStore.cart.service.CartService?anyhost=true&application=jppstore-cart&dubbo=2.5.3&interface=com.JppStore.cart.service.CartService&methods=addCart,mergeCart,updateCartNum,deleteCartItem,getCartList&pid=8180&side=provider&timeout=300000&timestamp=1513416278477, com.JppStore.service.ItemCatService=empty://172.20.134.126:20880/com.JppStore.service.ItemCatService?anyhost=true&application=jppstore-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=11196&side=provider&timeout=300000&timestamp=1513416210514, com.JppStore.sso.service.RegisterService=empty://172.20.134.126/com.JppStore.sso.service.RegisterService?application=jppstore-sso-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.sso.service.RegisterService&methods=checkData,register&pid=10068&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416339622 empty://172.20.134.126/com.JppStore.sso.service.RegisterService?application=jppstore-sso-web&category=routers&dubbo=2.5.3&interface=com.JppStore.sso.service.RegisterService&methods=checkData,register&pid=10068&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416339622 dubbo://172.20.134.126:20883/com.JppStore.sso.service.RegisterService?anyhost=true&application=jppstore-sso&dubbo=2.5.3&interface=com.JppStore.sso.service.RegisterService&methods=checkData,register&pid=13116&side=provider&timeout=300000&timestamp=1513416247783, com.JppStore.content.service.ContentService=empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-portal-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=2888&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416462193 empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-portal-web&category=routers&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=2888&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416462193 dubbo://172.20.134.126:20881/com.JppStore.content.service.ContentService?anyhost=true&application=jppstore-content&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=3584&side=provider&timeout=300000&timestamp=1513416206307}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-12-16 17:28:37,240 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2017-12-16 17:28:37,266 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2017-12-16 17:28:37,267 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-UFMLEGJ
+
+
+[INFO ] 2017-12-16 17:28:37,267 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2017-12-16 17:28:37,268 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2017-12-16 17:28:37,268 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\Application\jdk\jdk1.8.0_131\jre
+
+
+[INFO ] 2017-12-16 17:28:37,269 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\Application\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\Application\IDEA\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar
+
+
+[INFO ] 2017-12-16 17:28:37,271 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\Application\jdk\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Application\jdk\jdk1.8.0_131\bin;F:\Application\jdk\jdk1.8.0_131\jre\bin;F:\Application\OpenCV\opencv\build\x64\vc14\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;F:\Application\tomcat8\lib;F:\Application\tomcat8\bin;F:\Application\mySql\bin;F:\Application\nodejs\;F:\Application\Clients\;F:\Application\python;F:\Application\apache-maven-3.3.9\bin;F:\Application\SVN\bin;F:\Application\SVN_cli\bin;D:\hadoop\hadoop-2.6.4\bin;E:\学习视频\大数据3期-传智播客Hadoop内部版\课件代码文档资料\day16\课前资料\扩展资料\扩展资料\插件安装\apache-ant-1.9.4\bin;F:\Application\scala\bin;;F:\Application\Git\cmd;C:\Users\Nelsoner\AppData\Roaming\npm;C:\Users\Nelsoner\AppData\Local\Microsoft\WindowsApps;F:\Application\Clients\;F:\Application\SSH;.
+
+
+[INFO ] 2017-12-16 17:28:37,271 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\Nelsoner\AppData\Local\Temp\
+
+
+[INFO ] 2017-12-16 17:28:37,272 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2017-12-16 17:28:37,272 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2017-12-16 17:28:37,272 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2017-12-16 17:28:37,273 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2017-12-16 17:28:37,273 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Nelsoner
+
+
+[INFO ] 2017-12-16 17:28:37,273 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Nelsoner
+
+
+[INFO ] 2017-12-16 17:28:37,274 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=C:\Users\Nelsoner\IdeaProjects\JpStore\jppstore-search-web
+
+
+[INFO ] 2017-12-16 17:28:37,275 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.10:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@470141f0
+
+
+[INFO ] 2017-12-16 17:28:37,319 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.10/192.168.25.10:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2017-12-16 17:28:37,322 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.10/192.168.25.10:2181, initiating session
+
+
+[INFO ] 2017-12-16 17:28:37,332 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.10/192.168.25.10:2181, sessionid = 0x1605ea166e4000a, negotiated timeout = 30000
+
+
+[INFO ] 2017-12-16 17:28:37,335 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2017-12-16 17:28:37,370 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=8036&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416517109, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-16 17:28:37,401 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=8036&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416517109, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-16 17:28:37,485 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=8036&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416517109, urls: [dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14004&side=provider&timeout=300000&timestamp=1513416250824, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=8036&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416517109, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=8036&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513416517109], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-16 17:28:37,797 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.20.134.126:20882 from NettyClient 172.20.134.126 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x371320da, /172.20.134.126:16244 => /172.20.134.126:20882]], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-16 17:28:37,798 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-UFMLEGJ/172.20.134.126 connect to the server /172.20.134.126:20882, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-16 17:28:37,951 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.JppStore.search.service.SearchService from url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=jppstore-search-web&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=8036&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1513416517109, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-16 17:28:38,085 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'jppstore-search-web': initialization completed in 3919 ms
+
+
+[INFO ] 2017-12-17 17:07:50,293 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'jppstore-search-web': initialization started
+
+
+[INFO ] 2017-12-17 17:07:50,322 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sun Dec 17 17:07:50 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-17 17:07:50,373 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2017-12-17 17:07:51,034 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2017-12-17 17:07:51,216 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/resource.properties]
+
+
+[INFO ] 2017-12-17 17:07:51,224 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2017-12-17 17:07:51,797 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.JppStore.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2017-12-17 17:07:52,230 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sun Dec 17 17:07:50 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-17 17:07:52,301 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'jppstore-search-web-servlet': startup date [Sun Dec 17 17:07:50 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-12-17 17:07:52,527 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Nelsoner\.dubbo\dubbo-registry-192.168.25.10.cache, data: {com.JppStore.search.service.SearchItemService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchItemService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchItemService&methods=importAllItems&pid=14388&side=provider&timeout=300000&timestamp=1513501572351, com.JppStore.search.service.SearchService=empty://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14388&side=provider&timeout=300000&timestamp=1513501578031, com.JppStore.sso.service.LoginService=empty://172.20.134.126:20883/com.JppStore.sso.service.LoginService?anyhost=true&application=jppstore-sso&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.sso.service.LoginService&methods=userLogin&pid=10200&side=provider&timeout=300000&timestamp=1513501593246, com.JppStore.content.service.ContentCategoryService=empty://172.20.134.126:20881/com.JppStore.content.service.ContentCategoryService?anyhost=true&application=jppstore-content&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.content.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=16248&side=provider&timeout=300000&timestamp=1513501535412, com.JppStore.order.service.OrderService=empty://172.20.134.126/com.JppStore.order.service.OrderService?application=jppstore-portal-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.order.service.OrderService&methods=createOrder&pid=15492&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501659071 empty://172.20.134.126/com.JppStore.order.service.OrderService?application=jppstore-portal-web&category=routers&dubbo=2.5.3&interface=com.JppStore.order.service.OrderService&methods=createOrder&pid=15492&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501659071 dubbo://172.20.134.126:20885/com.JppStore.order.service.OrderService?anyhost=true&application=jppstore-order&dubbo=2.5.3&interface=com.JppStore.order.service.OrderService&methods=createOrder&pid=2392&side=provider&timeout=300000&timestamp=1513501558966, com.JppStore.sso.service.TokenService=empty://172.20.134.126/com.JppStore.sso.service.TokenService?application=jppstore-portal-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.sso.service.TokenService&methods=getUserByToken&pid=15492&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501656021 empty://172.20.134.126/com.JppStore.sso.service.TokenService?application=jppstore-portal-web&category=routers&dubbo=2.5.3&interface=com.JppStore.sso.service.TokenService&methods=getUserByToken&pid=15492&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501656021 dubbo://172.20.134.126:20883/com.JppStore.sso.service.TokenService?anyhost=true&application=jppstore-sso&dubbo=2.5.3&interface=com.JppStore.sso.service.TokenService&methods=getUserByToken&pid=10200&side=provider&timeout=300000&timestamp=1513501593350, com.JppStore.service.ItemService=empty://172.20.134.126:20880/com.JppStore.service.ItemService?anyhost=true&application=jppstore-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=7844&side=provider&timeout=300000&timestamp=1513501603559, com.JppStore.cart.service.CartService=empty://172.20.134.126/com.JppStore.cart.service.CartService?application=jppstore-portal-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.cart.service.CartService&methods=addCart,mergeCart,updateCartNum,deleteCartItem,getCartList,clearCartItem&pid=15492&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501657273 empty://172.20.134.126/com.JppStore.cart.service.CartService?application=jppstore-portal-web&category=routers&dubbo=2.5.3&interface=com.JppStore.cart.service.CartService&methods=addCart,mergeCart,updateCartNum,deleteCartItem,getCartList,clearCartItem&pid=15492&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501657273 dubbo://172.20.134.126:20884/com.JppStore.cart.service.CartService?anyhost=true&application=jppstore-cart&dubbo=2.5.3&interface=com.JppStore.cart.service.CartService&methods=addCart,mergeCart,updateCartNum,deleteCartItem,getCartList,clearCartItem&pid=15348&side=provider&timeout=300000&timestamp=1513501579859, com.JppStore.service.ItemCatService=empty://172.20.134.126:20880/com.JppStore.service.ItemCatService?anyhost=true&application=jppstore-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.service.ItemCatService&methods=getItemCatlist&pid=7844&side=provider&timeout=300000&timestamp=1513501604513, com.JppStore.sso.service.RegisterService=empty://172.20.134.126:20883/com.JppStore.sso.service.RegisterService?anyhost=true&application=jppstore-sso&category=configurators&check=false&dubbo=2.5.3&interface=com.JppStore.sso.service.RegisterService&methods=checkData,register&pid=10200&side=provider&timeout=300000&timestamp=1513501591676, com.JppStore.content.service.ContentService=empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-portal-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=1436&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501632437 empty://172.20.134.126/com.JppStore.content.service.ContentService?application=jppstore-portal-web&category=routers&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=1436&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501632437 dubbo://172.20.134.126:20881/com.JppStore.content.service.ContentService?anyhost=true&application=jppstore-content&dubbo=2.5.3&interface=com.JppStore.content.service.ContentService&methods=getContentListByCid,addContent&pid=16248&side=provider&timeout=300000&timestamp=1513501542507}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2017-12-17 17:07:52,548 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2017-12-17 17:07:52,566 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2017-12-17 17:07:52,567 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-UFMLEGJ
+
+
+[INFO ] 2017-12-17 17:07:52,567 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2017-12-17 17:07:52,567 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2017-12-17 17:07:52,568 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\Application\jdk\jdk1.8.0_131\jre
+
+
+[INFO ] 2017-12-17 17:07:52,569 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\Application\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\Application\IDEA\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar
+
+
+[INFO ] 2017-12-17 17:07:52,570 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\Application\jdk\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Application\jdk\jdk1.8.0_131\bin;F:\Application\jdk\jdk1.8.0_131\jre\bin;F:\Application\OpenCV\opencv\build\x64\vc14\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;F:\Application\tomcat8\lib;F:\Application\tomcat8\bin;F:\Application\mySql\bin;F:\Application\nodejs\;F:\Application\Clients\;F:\Application\python;F:\Application\apache-maven-3.3.9\bin;F:\Application\SVN\bin;F:\Application\SVN_cli\bin;D:\hadoop\hadoop-2.6.4\bin;E:\学习视频\大数据3期-传智播客Hadoop内部版\课件代码文档资料\day16\课前资料\扩展资料\扩展资料\插件安装\apache-ant-1.9.4\bin;F:\Application\scala\bin;;F:\Application\Git\cmd;C:\Users\Nelsoner\AppData\Roaming\npm;C:\Users\Nelsoner\AppData\Local\Microsoft\WindowsApps;F:\Application\Clients\;F:\Application\SSH;.
+
+
+[INFO ] 2017-12-17 17:07:52,570 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\Nelsoner\AppData\Local\Temp\
+
+
+[INFO ] 2017-12-17 17:07:52,571 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2017-12-17 17:07:52,571 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2017-12-17 17:07:52,571 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2017-12-17 17:07:52,572 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2017-12-17 17:07:52,572 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Nelsoner
+
+
+[INFO ] 2017-12-17 17:07:52,573 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Nelsoner
+
+
+[INFO ] 2017-12-17 17:07:52,573 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=C:\Users\Nelsoner\IdeaProjects\JpStore\jppstore-search-web
+
+
+[INFO ] 2017-12-17 17:07:52,581 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.10:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@34cb9048
+
+
+[INFO ] 2017-12-17 17:07:52,618 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.10/192.168.25.10:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2017-12-17 17:07:52,621 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.10/192.168.25.10:2181, initiating session
+
+
+[INFO ] 2017-12-17 17:07:52,628 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.10/192.168.25.10:2181, sessionid = 0x16063b5b9760008, negotiated timeout = 30000
+
+
+[INFO ] 2017-12-17 17:07:52,630 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2017-12-17 17:07:52,668 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14024&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501672392, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-17 17:07:52,709 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14024&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501672392, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-17 17:07:52,803 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14024&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501672392, urls: [dubbo://172.20.134.126:20882/com.JppStore.search.service.SearchService?anyhost=true&application=jppstore-search&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14388&side=provider&timeout=300000&timestamp=1513501578031, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=configurators&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14024&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501672392, empty://172.20.134.126/com.JppStore.search.service.SearchService?application=jppstore-search-web&category=routers&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14024&revision=1.0-SNAPSHOT&side=consumer&timestamp=1513501672392], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-17 17:07:53,111 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.20.134.126:20882 from NettyClient 172.20.134.126 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xe5d25cfb, /172.20.134.126:6593 => /172.20.134.126:20882]], dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-17 17:07:53,111 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-UFMLEGJ/172.20.134.126 connect to the server /172.20.134.126:20882, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-17 17:07:53,232 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.JppStore.search.service.SearchService from url zookeeper://192.168.25.10:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=jppstore-search-web&check=false&dubbo=2.5.3&interface=com.JppStore.search.service.SearchService&methods=search&pid=14024&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1513501672392, dubbo version: 2.5.3, current host: 172.20.134.126
+
+
+[INFO ] 2017-12-17 17:07:53,357 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'jppstore-search-web': initialization completed in 3059 ms
+
+
+[WARN ] 2017-12-17 17:40:29,987 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'jppstore-search-web'

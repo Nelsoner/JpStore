@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jppstore-cart-service:war">
+    <output-path>$PROJECT_DIR$/jppstore-cart/jppstore-cart-service/target</output-path>
+    <root id="archive" name="jppstore-cart-service.war">
+      <element id="artifact" artifact-name="jppstore-cart-service:war exploded" />
+    </root>
+  </artifact>
+</component>

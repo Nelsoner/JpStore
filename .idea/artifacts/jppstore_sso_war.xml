@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jppstore-sso:war">
+    <output-path>$PROJECT_DIR$/jppstore-sso/target</output-path>
+    <root id="archive" name="jppstore-sso.war">
+      <element id="artifact" artifact-name="jppstore-sso:war exploded" />
+    </root>
+  </artifact>
+</component>

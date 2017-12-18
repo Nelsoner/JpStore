@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/jppstore-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-cart-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-cart/jppstore-cart-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-cart/jppstore-cart-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-content" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-content/jppstore-content-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-content/jppstore-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-item-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-manager/jppstore-manager-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-manager/jppstore-manager-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-manager/jppstore-manager-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-manager/jppstore-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-order-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-order/jppstore-order-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-order/jppstore-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-search/jppstore-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-search/jppstore-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-sso-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-sso/jppstore-sso-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jppstore-sso/jppstore-sso-service" charset="UTF-8" />
+  </component>
+</project>

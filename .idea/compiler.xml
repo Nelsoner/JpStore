@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fastdfs_client" />
+        <module name="hive (1)" />
+        <module name="jppstore-cart-interface" />
+        <module name="jppstore-cart-service" />
+        <module name="jppstore-cart-web" />
+        <module name="jppstore-common" />
+        <module name="jppstore-content-interface" />
+        <module name="jppstore-content-service" />
+        <module name="jppstore-item-web" />
+        <module name="jppstore-manager-dao" />
+        <module name="jppstore-manager-interface" />
+        <module name="jppstore-manager-pojo" />
+        <module name="jppstore-manager-service" />
+        <module name="jppstore-manager-web" />
+        <module name="jppstore-order-interface" />
+        <module name="jppstore-order-service" />
+        <module name="jppstore-order-web" />
+        <module name="jppstore-portal-web" />
+        <module name="jppstore-search-interface" />
+        <module name="jppstore-search-service" />
+        <module name="jppstore-search-web" />
+        <module name="jppstore-sso-interface" />
+        <module name="jppstore-sso-service" />
+        <module name="jppstore-sso-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="fastdfs_client" target="1.5" />
+      <module name="hive" target="1.5" />
+      <module name="hive (1)" target="1.5" />
+      <module name="jppstore-cart" target="1.8" />
+      <module name="jppstore-cart-interface" target="1.8" />
+      <module name="jppstore-cart-service" target="1.8" />
+      <module name="jppstore-cart-web" target="1.8" />
+      <module name="jppstore-common" target="1.8" />
+      <module name="jppstore-content" target="1.8" />
+      <module name="jppstore-content-interface" target="1.8" />
+      <module name="jppstore-content-service" target="1.8" />
+      <module name="jppstore-item-web" target="1.8" />
+      <module name="jppstore-manager" target="1.8" />
+      <module name="jppstore-manager-dao" target="1.8" />
+      <module name="jppstore-manager-interface" target="1.8" />
+      <module name="jppstore-manager-pojo" target="1.8" />
+      <module name="jppstore-manager-service" target="1.8" />
+      <module name="jppstore-manager-web" target="1.8" />
+      <module name="jppstore-order" target="1.8" />
+      <module name="jppstore-order-interface" target="1.8" />
+      <module name="jppstore-order-service" target="1.8" />
+      <module name="jppstore-order-web" target="1.8" />
+      <module name="jppstore-parent" target="1.8" />
+      <module name="jppstore-portal-web" target="1.8" />
+      <module name="jppstore-search" target="1.8" />
+      <module name="jppstore-search-interface" target="1.8" />
+      <module name="jppstore-search-service" target="1.8" />
+      <module name="jppstore-search-web" target="1.8" />
+      <module name="jppstore-sso" target="1.8" />
+      <module name="jppstore-sso-interface" target="1.8" />
+      <module name="jppstore-sso-service" target="1.8" />
+      <module name="jppstore-sso-web" target="1.8" />
+      <module name="taotao-manager-dao" target="1.8" />
+      <module name="taotao-manager-pojo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

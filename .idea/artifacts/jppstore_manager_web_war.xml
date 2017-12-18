@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jppstore-manager-web:war">
+    <output-path>$PROJECT_DIR$/jppstore-manager-web/target</output-path>
+    <root id="archive" name="jppstore-manager-web.war">
+      <element id="artifact" artifact-name="jppstore-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>

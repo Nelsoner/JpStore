@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" filepath="$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-cart/jppstore-cart.iml" filepath="$PROJECT_DIR$/jppstore-cart/jppstore-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-cart/jppstore-cart-interface/jppstore-cart-interface.iml" filepath="$PROJECT_DIR$/jppstore-cart/jppstore-cart-interface/jppstore-cart-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-cart/jppstore-cart-service/jppstore-cart-service.iml" filepath="$PROJECT_DIR$/jppstore-cart/jppstore-cart-service/jppstore-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-cart-web/jppstore-cart-web.iml" filepath="$PROJECT_DIR$/jppstore-cart-web/jppstore-cart-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-common/jppstore-common.iml" filepath="$PROJECT_DIR$/jppstore-common/jppstore-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-content/jppstore-content.iml" filepath="$PROJECT_DIR$/jppstore-content/jppstore-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-content/jppstore-content-interface/jppstore-content-interface.iml" filepath="$PROJECT_DIR$/jppstore-content/jppstore-content-interface/jppstore-content-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-content/jppstore-content-service/jppstore-content-service.iml" filepath="$PROJECT_DIR$/jppstore-content/jppstore-content-service/jppstore-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-item-web/jppstore-item-web.iml" filepath="$PROJECT_DIR$/jppstore-item-web/jppstore-item-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-manager/jppstore-manager.iml" filepath="$PROJECT_DIR$/jppstore-manager/jppstore-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-manager/jppstore-manager-dao/jppstore-manager-dao.iml" filepath="$PROJECT_DIR$/jppstore-manager/jppstore-manager-dao/jppstore-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-manager/jppstore-manager-interface/jppstore-manager-interface.iml" filepath="$PROJECT_DIR$/jppstore-manager/jppstore-manager-interface/jppstore-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-manager/jppstore-manager-pojo/jppstore-manager-pojo.iml" filepath="$PROJECT_DIR$/jppstore-manager/jppstore-manager-pojo/jppstore-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-manager/jppstore-manager-service/jppstore-manager-service.iml" filepath="$PROJECT_DIR$/jppstore-manager/jppstore-manager-service/jppstore-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-manager-web/jppstore-manager-web.iml" filepath="$PROJECT_DIR$/jppstore-manager-web/jppstore-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-order/jppstore-order.iml" filepath="$PROJECT_DIR$/jppstore-order/jppstore-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-order/jppstore-order-interface/jppstore-order-interface.iml" filepath="$PROJECT_DIR$/jppstore-order/jppstore-order-interface/jppstore-order-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-order/jppstore-order-service/jppstore-order-service.iml" filepath="$PROJECT_DIR$/jppstore-order/jppstore-order-service/jppstore-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-order-web/jppstore-order-web.iml" filepath="$PROJECT_DIR$/jppstore-order-web/jppstore-order-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-parent/jppstore-parent.iml" filepath="$PROJECT_DIR$/jppstore-parent/jppstore-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-portal-web/jppstore-portal-web.iml" filepath="$PROJECT_DIR$/jppstore-portal-web/jppstore-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-search/jppstore-search.iml" filepath="$PROJECT_DIR$/jppstore-search/jppstore-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-search/jppstore-search-interface/jppstore-search-interface.iml" filepath="$PROJECT_DIR$/jppstore-search/jppstore-search-interface/jppstore-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-search/jppstore-search-service/jppstore-search-service.iml" filepath="$PROJECT_DIR$/jppstore-search/jppstore-search-service/jppstore-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-search-web/jppstore-search-web.iml" filepath="$PROJECT_DIR$/jppstore-search-web/jppstore-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-sso/jppstore-sso.iml" filepath="$PROJECT_DIR$/jppstore-sso/jppstore-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-sso/jppstore-sso-interface/jppstore-sso-interface.iml" filepath="$PROJECT_DIR$/jppstore-sso/jppstore-sso-interface/jppstore-sso-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-sso/jppstore-sso-service/jppstore-sso-service.iml" filepath="$PROJECT_DIR$/jppstore-sso/jppstore-sso-service/jppstore-sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jppstore-sso-web/jppstore-sso-web.iml" filepath="$PROJECT_DIR$/jppstore-sso-web/jppstore-sso-web.iml" />
+    </modules>
+  </component>
+</project>
